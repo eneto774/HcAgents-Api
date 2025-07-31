@@ -1,0 +1,332 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Common\\Common.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "C:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\eneto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eneto\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "c:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.13.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Common\\Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Common\\Common.csproj",
+        "projectName": "Common",
+        "projectPath": "c:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\eneto\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eneto\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Application\\Application.csproj"
+              },
+              "c:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Domain\\Domain.csproj"
+              },
+              "c:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "c:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Infrastructure\\Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "c:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\eneto\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eneto\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "c:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\eneto\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eneto\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "c:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\eneto\\OneDrive\\Desktop\\Projeto HC\\hcagents-solution\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "System.Reflection": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

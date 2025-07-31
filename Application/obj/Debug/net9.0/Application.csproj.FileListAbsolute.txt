@@ -1,0 +1,15 @@
+C:\Users\eneto\OneDrive\Desktop\Projeto HC\hcagents-solution\Application\bin\Debug\net9.0\Application.deps.json
+c:\Users\eneto\OneDrive\Desktop\Projeto HC\hcagents-solution\Application\bin\Debug\net9.0\Application.dll
+c:\Users\eneto\OneDrive\Desktop\Projeto HC\hcagents-solution\Application\bin\Debug\net9.0\Application.pdb
+c:\Users\eneto\OneDrive\Desktop\Projeto HC\hcagents-solution\Application\bin\Debug\net9.0\Domain.dll
+c:\Users\eneto\OneDrive\Desktop\Projeto HC\hcagents-solution\Application\bin\Debug\net9.0\Domain.pdb
+c:\Users\eneto\OneDrive\Desktop\Projeto HC\hcagents-solution\Application\obj\Debug\net9.0\Application.csproj.AssemblyReference.cache
+c:\Users\eneto\OneDrive\Desktop\Projeto HC\hcagents-solution\Application\obj\Debug\net9.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\eneto\OneDrive\Desktop\Projeto HC\hcagents-solution\Application\obj\Debug\net9.0\Application.AssemblyInfoInputs.cache
+c:\Users\eneto\OneDrive\Desktop\Projeto HC\hcagents-solution\Application\obj\Debug\net9.0\Application.AssemblyInfo.cs
+c:\Users\eneto\OneDrive\Desktop\Projeto HC\hcagents-solution\Application\obj\Debug\net9.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\eneto\OneDrive\Desktop\Projeto HC\hcagents-solution\Application\obj\Debug\net9.0\Applicat.44B5EDA2.Up2Date
+c:\Users\eneto\OneDrive\Desktop\Projeto HC\hcagents-solution\Application\obj\Debug\net9.0\Application.dll
+c:\Users\eneto\OneDrive\Desktop\Projeto HC\hcagents-solution\Application\obj\Debug\net9.0\refint\Application.dll
+c:\Users\eneto\OneDrive\Desktop\Projeto HC\hcagents-solution\Application\obj\Debug\net9.0\Application.pdb
+C:\Users\eneto\OneDrive\Desktop\Projeto HC\hcagents-solution\Application\obj\Debug\net9.0\ref\Application.dll
