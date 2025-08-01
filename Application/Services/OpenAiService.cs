@@ -38,7 +38,7 @@ public class OpenAiService : IOpenAiService
 
         var completion = await _chatClient.CompleteChatAsync(messages);
 
-        if (completion.Value.Content.Count > 1)
+        if (completion.Value.Content.Count > 0)
         {
             return string.Join(" ", completion.Value.Content.Select(x => x.Text));
         }

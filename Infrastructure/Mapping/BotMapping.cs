@@ -15,7 +15,6 @@ public class BotMapping : IEntityTypeConfiguration<Bot>
         builder.Property(x => x.Id).HasColumnType("char(36)").IsRequired();
         builder.Property(x => x.Name).HasMaxLength(255).IsRequired();
         builder.Property(x => x.Description).IsRequired();
-        builder.Property(x => x.Active).IsRequired();
         builder.Property(x => x.CreatedBy).HasColumnName("created_by").IsRequired();
         builder
             .Property(x => x.CreatedAt)

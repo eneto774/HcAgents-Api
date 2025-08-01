@@ -25,7 +25,6 @@ public class CreateChatAndBotCommandHandler : IRequestHandler<CreateChatAndBotCo
                     Name = request.BotName,
                     Description = request.BotDescription,
                     CreatedBy = request.UserId,
-                    Active = true,
                     CreatedAt = DateTime.Now,
                 }
             );
