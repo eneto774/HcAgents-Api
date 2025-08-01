@@ -1,4 +1,4 @@
-﻿using HcAgents.Application;
+﻿using HcAgents.Application.Setup;
 using HcAgents.Infrastructure.Setup;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

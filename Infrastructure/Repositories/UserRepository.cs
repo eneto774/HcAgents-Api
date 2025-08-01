@@ -19,7 +19,7 @@ public class UserRepository : IUserRepository
         return await _context.Users.ToListAsync();
     }
 
-    public async Task<User?> GetUserById(int id)
+    public async Task<User?> GetUserById(Guid id)
     {
         return await _context.Users.FindAsync(id);
     }
@@ -41,7 +41,7 @@ public class UserRepository : IUserRepository
         _context.Users.Update(User);
     }
 
-    public async Task<User?> DeleteUser(int id)
+    public async Task<User?> DeleteUser(Guid id)
     {
         var user = await _context.Users.FindAsync(id);
         if (user != null)

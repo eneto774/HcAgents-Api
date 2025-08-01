@@ -35,7 +35,6 @@ CREATE TABLE message (
     content TEXT NOT NULL,
     chat_id CHAR(36) NOT NULL,
     is_user_message BOOLEAN NOT NULL,
-    created_by CHAR(36) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (chat_id) REFERENCES chat(id)
 );
